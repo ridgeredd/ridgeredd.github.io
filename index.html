@@ -11,19 +11,24 @@
         <h1>My Project Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#software">Projects</a></li>
                 <!--<li><a href="#about">About Me</a></li>-->
                 <li><a href="#contact">Contact Information</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="projects">
-        <h2>Featured Projects</h2>
+    <section id="software">
+        <h2>Software Projects</h2>
         <div class="project">
-            <h3>Course Reviews Application</h3>
-            <p>Java-based Course Review Application implementing MVC architecture. Allows users to create local account, create new classes and reviews, search existing classes by name/information, view reviews and ratings for a specified course, and view and delete their past reviews. Hibernate and SQLite were used for data persistence, and JavaFX was used for UI/UX design. </p>
-            <a href="https://github.com/cs-3140-fa23/hw6-hw6-afu4pv-crx7jg-usy7dp/">View on GitHub</a>
+            <h3>Coding Theory Portfolio</h3>
+            <p>Collection of projects on algebraic coding theory. Topics include Reed-Solomon, Goppa, Golay, Convolutional, and Hamming codes, as well as mathemtaical frameworks.</p>
+            <a href="https://github.com/rr-102/FiniteFields-CodingTheory">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Computational Geometry Portfolio and Efficient Database Querying Project</h3>
+            <p>A series of computation geometry projects on Convex Hull algorithms, pathfinding algorithms, and shape/intersections methods, and more using Python. Personal capstone project included implementing n-dimensional Orthogonal Range Querying data structure, a way of querying a database in O(log^(d-1) n + k) time where d is the number of dimensions, n the number of items in the database, and k the number of items returned. This is achieved using a recursive-binary-tree-like data structure with O(n log^(d-1) n) space complexity. Currently working on creating an algorithm to recursively rebalance the data structure when items are added or removed.</p>
+            <a href="https://github.com/AlecTraas/computational-geo-lab">View on GitHub</a>
         </div>
         <div class="project">
             <h3>UVA CIO Misconduct Web Application</h3>
@@ -32,9 +37,9 @@
             <a href="https://github.com/uva-cs3240-s24/project-b-09">View on GitHub</a>
         </div>
         <div class="project">
-            <h3>Computational Geometry Portfolio and Efficient Database Querying Project</h3>
-            <p>A series of computation geometry projects on Convex Hull Algorithms, Shortest Path Algorithms, etc using pandas, matplotlib, numpy, and various other libraries. Personal capstone project included implementing n-dimensional Orthogonal Range Querying, a way of querying a database in O(log^(d-1) n + k) time where d is the number of dimensions, n the number of items in the database, and k the number of items returned. This is achieved using a recursive-binary-tree-like data structure with O(n log^(d-1) n) space complexity. Currently working on creating an algorithm to recursively rebalance the data structure when items are added or removed.</p>
-            <a href="https://github.com/AlecTraas/computational-geo-lab">View on GitHub</a>
+            <h3>Course Reviews Application</h3>
+            <p>Java-based Course Review Application implementing MVC architecture. Allows users to create local account, create new classes and reviews, search existing classes by name/information, view reviews and ratings for a specified course, and view and delete their past reviews. Hibernate and SQLite were used for data persistence, and JavaFX was used for UI/UX design. </p>
+            <a href="https://github.com/cs-3140-fa23/hw6-hw6-afu4pv-crx7jg-usy7dp/">View on GitHub</a>
         </div>
         <div class="project">
             <h3>UVA Game Engine Project</h3>
@@ -46,6 +51,25 @@
             <p>An in-progress Python application built on Flask framework that helps users vizualize the change in price of an option contract relative to other factors. Conducted research into financial algorithms like the Black-Scholes Model and measures of Option volatility like the Greeks.</p>
             <a href="https://github.com/Project-Code-UVA/VizOp">View on GitHub</a>
         </div> -->
+        
+        <!-- Repeat for other projects -->
+    </section>
+    <section id="hardware">
+        <h2>Hardware Projects</h2>
+        <div class="project">
+            <h3>Audio Analyzer PCB</h3>
+            <p>Designed and fabricated a PCB which blinks a red and green LED to bass and treble sections of a song received via audio jack. High/low cutoff frequencies were specifically designed around the song "Who's Crying Now" by Journey.</p>
+            <a href="https://github.com/ridgeredd/Journey_Audio_Analyzer">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>32-bit RISC-V Verilog CPU</h3>
+            <p>Multi-cycle CPU built in Verilog capable of executing RISC-V integer instructions. Planned eventual single-cycle pipelined version.</p>
+            <a href="https://github.com/ridgeredd/32bit_Verilog_CPU/tree/main">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>GPU-Logger Module for MURS Radio</h3>
+            <p>Currently undertaking undergraduate capstone project of creating a radio accessory to add GPS logging functionality for a local biking group. Includes software, embedded, PCB and communication systems design. </p>
+        </div>
         
         <!-- Repeat for other projects -->
     </section>
@@ -77,4 +101,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
